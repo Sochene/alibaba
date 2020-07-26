@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-26T10:36:46.686Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="_Pty78EAF9w_Dgbz6_gj" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-26T11:26:56.973Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="UA-J9RWLgsik9_2slCwm" version="13.5.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2272" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,19 +19,19 @@
           <mxGeometry x="50" y="120" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="upaiQ6j6fznPRTDWuKnX-17" value="如果isBizProcessFlag=true" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="45" y="270" width="10" height="50" as="geometry" />
+          <mxGeometry x="49" y="270" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="upaiQ6j6fznPRTDWuKnX-29" value="检查参数" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="45" y="330" width="10" height="80" as="geometry" />
+          <mxGeometry x="49" y="330" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="upaiQ6j6fznPRTDWuKnX-44" value="下单" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="45" y="560" width="10" height="53" as="geometry" />
+          <mxGeometry x="48" y="560" width="10" height="53" as="geometry" />
         </mxCell>
         <mxCell id="upaiQ6j6fznPRTDWuKnX-68" value="成功" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="45" y="810" width="10" height="53" as="geometry" />
+          <mxGeometry x="48" y="810" width="10" height="53" as="geometry" />
         </mxCell>
         <mxCell id="upaiQ6j6fznPRTDWuKnX-78" value="未成功" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="45" y="880" width="10" height="53" as="geometry" />
+          <mxGeometry x="48" y="880" width="10" height="53" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="TradeServiceFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="80" width="100" height="350" as="geometry" />
@@ -127,7 +127,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="upaiQ6j6fznPRTDWuKnX-35" value="入库交易单" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="165" y="507" width="10" height="54" as="geometry" />
+          <mxGeometry x="168" y="507" width="10" height="54" as="geometry" />
         </mxCell>
         <mxCell id="upaiQ6j6fznPRTDWuKnX-36" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="595" y="507" width="10" height="54" as="geometry" />
@@ -154,7 +154,7 @@
             <mxPoint x="177" y="551" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upaiQ6j6fznPRTDWuKnX-41" value="tradeService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="upaiQ6j6fznPRTDWuKnX-41" value="ChannelTradeServiceInner" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="267.5" y="590" width="165" height="210" as="geometry" />
         </mxCell>
         <mxCell id="upaiQ6j6fznPRTDWuKnX-42" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="upaiQ6j6fznPRTDWuKnX-41">
@@ -198,7 +198,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="upaiQ6j6fznPRTDWuKnX-53" value="更新交易状态" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="165" y="720" width="10" height="54" as="geometry" />
+          <mxGeometry x="168" y="720" width="10" height="54" as="geometry" />
         </mxCell>
         <mxCell id="upaiQ6j6fznPRTDWuKnX-54" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="595" y="720" width="10" height="54" as="geometry" />
